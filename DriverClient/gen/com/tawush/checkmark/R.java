@@ -1483,7 +1483,7 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f090002;
         public static final int action_menu_presenter=0x7f090003;
         public static final int action_mode_close_button=0x7f09004c;
-        public static final int action_settings=0x7f090065;
+        public static final int action_settings=0x7f090067;
         public static final int activity_chooser_view_content=0x7f09004d;
         public static final int adjust_height=0x7f09000d;
         public static final int adjust_width=0x7f09000e;
@@ -1495,6 +1495,8 @@ containing a value of this type.
         public static final int auto=0x7f09000a;
         public static final int beginning=0x7f090038;
         public static final int book_now=0x7f09001e;
+        public static final int button1=0x7f090064;
+        public static final int button2=0x7f090065;
         public static final int buyButton=0x7f09001a;
         public static final int buy_now=0x7f09001f;
         public static final int buy_with=0x7f090020;
@@ -1531,7 +1533,7 @@ containing a value of this type.
         public static final int listMode=0x7f090030;
         public static final int list_item=0x7f090051;
         public static final int logo_only=0x7f090024;
-        public static final int map=0x7f090064;
+        public static final int map=0x7f090066;
         public static final int match_parent=0x7f09001c;
         public static final int middle=0x7f09003a;
         public static final int monochrome=0x7f09002d;
@@ -1604,8 +1606,9 @@ containing a value of this type.
         public static final int abc_search_dropdown_item_icons_2line=0x7f030015;
         public static final int abc_search_view=0x7f030016;
         public static final int abc_simple_decor=0x7f030017;
-        public static final int activity_main=0x7f030018;
-        public static final int support_simple_spinner_dropdown_item=0x7f030019;
+        public static final int activity_frist=0x7f030018;
+        public static final int activity_main=0x7f030019;
+        public static final int support_simple_spinner_dropdown_item=0x7f03001a;
     }
     public static final class menu {
         public static final int main=0x7f0d0000;
@@ -1761,6 +1764,8 @@ containing a value of this type.
         public static final int create_calendar_title=0x7f070004;
         public static final int decline=0x7f070003;
         public static final int hello_world=0x7f07003a;
+        public static final int login=0x7f07003d;
+        public static final int register=0x7f07003c;
         public static final int store_picture_message=0x7f070001;
         public static final int store_picture_title=0x7f070000;
         /**  Text on a placeholder buy button when Google Play services is not
