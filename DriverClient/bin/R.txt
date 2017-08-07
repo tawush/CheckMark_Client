@@ -377,7 +377,7 @@ int id action_context_bar 0x7f090045
 int id action_menu_divider 0x7f090002
 int id action_menu_presenter 0x7f090003
 int id action_mode_close_button 0x7f09004c
-int id action_settings 0x7f090067
+int id action_settings 0x7f090069
 int id activity_chooser_view_content 0x7f09004d
 int id adjust_height 0x7f09000d
 int id adjust_width 0x7f09000e
@@ -389,8 +389,7 @@ int id android_pay_light_with_border 0x7f090027
 int id auto 0x7f09000a
 int id beginning 0x7f090038
 int id book_now 0x7f09001e
-int id button1 0x7f090064
-int id button2 0x7f090065
+int id button1 0x7f090067
 int id buyButton 0x7f09001a
 int id buy_now 0x7f09001f
 int id buy_with 0x7f090020
@@ -406,6 +405,8 @@ int id disableHome 0x7f090032
 int id donate_with 0x7f090022
 int id donate_with_google 0x7f090023
 int id dropdown 0x7f090041
+int id editEmail 0x7f090065
+int id editPassword 0x7f090066
 int id edit_query 0x7f090058
 int id end 0x7f090039
 int id expand_activities_button 0x7f09004e
@@ -427,7 +428,7 @@ int id light 0x7f09000c
 int id listMode 0x7f090030
 int id list_item 0x7f090051
 int id logo_only 0x7f090024
-int id map 0x7f090066
+int id map 0x7f090068
 int id match_parent 0x7f09001c
 int id middle 0x7f09003a
 int id monochrome 0x7f09002d
@@ -463,6 +464,7 @@ int id submit_area 0x7f090061
 int id tabMode 0x7f090031
 int id terrain 0x7f090013
 int id test 0x7f090019
+int id textView1 0x7f090064
 int id title 0x7f090053
 int id top_action_bar 0x7f090048
 int id up 0x7f090049
@@ -497,9 +499,11 @@ int layout abc_search_dropdown_item_icons_2line 0x7f030015
 int layout abc_search_view 0x7f030016
 int layout abc_simple_decor 0x7f030017
 int layout activity_frist 0x7f030018
-int layout activity_main 0x7f030019
-int layout support_simple_spinner_dropdown_item 0x7f03001a
-int menu main 0x7f0d0000
+int layout activity_login 0x7f030019
+int layout activity_main 0x7f03001a
+int layout support_simple_spinner_dropdown_item 0x7f03001b
+int menu login 0x7f0d0000
+int menu main 0x7f0d0001
 int raw gtm_analytics 0x7f050000
 int string abc_action_bar_home_description 0x7f07002c
 int string abc_action_bar_up_description 0x7f07002d
@@ -562,6 +566,7 @@ int string login 0x7f07003d
 int string register 0x7f07003c
 int string store_picture_message 0x7f070001
 int string store_picture_title 0x7f070000
+int string title_activity_login 0x7f07003e
 int string wallet_buy_button_place_holder 0x7f07002b
 int style AppBaseTheme 0x7f060097
 int style AppTheme 0x7f060098

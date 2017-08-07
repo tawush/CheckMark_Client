@@ -6,14 +6,13 @@
     android:orientation="vertical" >
 
     <Button
-        android:id="@+id/button1"
         android:layout_width="160dp"
         android:layout_height="wrap_content"
         android:text="@string/register" />
 
     <Button
-        android:id="@+id/button2"
         android:layout_width="160dp"
+        android:onClick="btnLoginPress"
         android:layout_height="wrap_content"
         android:text="@string/login" />
 

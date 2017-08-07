@@ -1483,7 +1483,7 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f090002;
         public static final int action_menu_presenter=0x7f090003;
         public static final int action_mode_close_button=0x7f09004c;
-        public static final int action_settings=0x7f090067;
+        public static final int action_settings=0x7f090069;
         public static final int activity_chooser_view_content=0x7f09004d;
         public static final int adjust_height=0x7f09000d;
         public static final int adjust_width=0x7f09000e;
@@ -1495,8 +1495,7 @@ containing a value of this type.
         public static final int auto=0x7f09000a;
         public static final int beginning=0x7f090038;
         public static final int book_now=0x7f09001e;
-        public static final int button1=0x7f090064;
-        public static final int button2=0x7f090065;
+        public static final int button1=0x7f090067;
         public static final int buyButton=0x7f09001a;
         public static final int buy_now=0x7f09001f;
         public static final int buy_with=0x7f090020;
@@ -1512,6 +1511,8 @@ containing a value of this type.
         public static final int donate_with=0x7f090022;
         public static final int donate_with_google=0x7f090023;
         public static final int dropdown=0x7f090041;
+        public static final int editEmail=0x7f090065;
+        public static final int editPassword=0x7f090066;
         public static final int edit_query=0x7f090058;
         public static final int end=0x7f090039;
         public static final int expand_activities_button=0x7f09004e;
@@ -1533,7 +1534,7 @@ containing a value of this type.
         public static final int listMode=0x7f090030;
         public static final int list_item=0x7f090051;
         public static final int logo_only=0x7f090024;
-        public static final int map=0x7f090066;
+        public static final int map=0x7f090068;
         public static final int match_parent=0x7f09001c;
         public static final int middle=0x7f09003a;
         public static final int monochrome=0x7f09002d;
@@ -1569,6 +1570,7 @@ containing a value of this type.
         public static final int tabMode=0x7f090031;
         public static final int terrain=0x7f090013;
         public static final int test=0x7f090019;
+        public static final int textView1=0x7f090064;
         public static final int title=0x7f090053;
         public static final int top_action_bar=0x7f090048;
         public static final int up=0x7f090049;
@@ -1607,11 +1609,13 @@ containing a value of this type.
         public static final int abc_search_view=0x7f030016;
         public static final int abc_simple_decor=0x7f030017;
         public static final int activity_frist=0x7f030018;
-        public static final int activity_main=0x7f030019;
-        public static final int support_simple_spinner_dropdown_item=0x7f03001a;
+        public static final int activity_login=0x7f030019;
+        public static final int activity_main=0x7f03001a;
+        public static final int support_simple_spinner_dropdown_item=0x7f03001b;
     }
     public static final class menu {
-        public static final int main=0x7f0d0000;
+        public static final int login=0x7f0d0000;
+        public static final int main=0x7f0d0001;
     }
     public static final class raw {
         public static final int gtm_analytics=0x7f050000;
@@ -1768,6 +1772,7 @@ containing a value of this type.
         public static final int register=0x7f07003c;
         public static final int store_picture_message=0x7f070001;
         public static final int store_picture_title=0x7f070000;
+        public static final int title_activity_login=0x7f07003e;
         /**  Text on a placeholder buy button when Google Play services is not
          available or up-to-date 
  Text on a button that allows a user to make a payment with Google Wallet
