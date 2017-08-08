@@ -1611,11 +1611,13 @@ containing a value of this type.
         public static final int activity_frist=0x7f030018;
         public static final int activity_login=0x7f030019;
         public static final int activity_main=0x7f03001a;
-        public static final int support_simple_spinner_dropdown_item=0x7f03001b;
+        public static final int activity_task=0x7f03001b;
+        public static final int support_simple_spinner_dropdown_item=0x7f03001c;
     }
     public static final class menu {
         public static final int login=0x7f0d0000;
         public static final int main=0x7f0d0001;
+        public static final int task=0x7f0d0002;
     }
     public static final class raw {
         public static final int gtm_analytics=0x7f050000;
@@ -1773,6 +1775,7 @@ containing a value of this type.
         public static final int store_picture_message=0x7f070001;
         public static final int store_picture_title=0x7f070000;
         public static final int title_activity_login=0x7f07003e;
+        public static final int title_activity_task=0x7f07003f;
         /**  Text on a placeholder buy button when Google Play services is not
          available or up-to-date 
  Text on a button that allows a user to make a payment with Google Wallet

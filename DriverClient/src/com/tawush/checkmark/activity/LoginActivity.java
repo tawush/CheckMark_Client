@@ -9,6 +9,7 @@ import com.tawush.checkmark.R.menu;
 import com.tawush.utils.Consts;
 
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -33,7 +34,8 @@ public class LoginActivity extends ActionBarActivity {
 				break;
 			case Consts.CMD_SUC:
 				pd.hide();
-				Toast.makeText(getApplicationContext(), "Network error ...", Toast.LENGTH_SHORT).show();
+				Intent intent=new Intent(LoginActivity.this,TaskActivity.class);
+				startActivity(intent);
 				break;
 			}
 		}
@@ -83,7 +85,7 @@ public class LoginActivity extends ActionBarActivity {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
-				loginHandler.sendEmptyMessage(Consts.CMD_ERR);
+				loginHandler.sendEmptyMessage(Consts.CMD_SUC);
 			}
 		}.start();
 		

@@ -47,8 +47,12 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tawush.checkmark.activity.LoginActivity"
+            android:name=".activity.LoginActivity"
             android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name="com.tawush.checkmark.activity.TaskActivity"
+            android:label="@string/title_activity_task" >
         </activity>
     </application>
 
