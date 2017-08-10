@@ -5,14 +5,17 @@ import android.support.v7.app.ActionBarActivity;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.MapFragment;
 import com.google.android.gms.maps.OnMapReadyCallback;
+import com.google.zxing.client.android.CaptureActivity;
 import com.tawush.checkmark.R;
 import com.tawush.checkmark.R.id;
 import com.tawush.checkmark.R.layout;
 import com.tawush.checkmark.R.menu;
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 public class TaskActivity extends ActionBarActivity implements OnMapReadyCallback{
 
@@ -50,5 +53,11 @@ public class TaskActivity extends ActionBarActivity implements OnMapReadyCallbac
 	public void onMapReady(GoogleMap arg0) {
 		// TODO Auto-generated method stub
 		
+	}
+	
+	public void onScan(View view)
+	{
+		Intent intent=new Intent(this,CaptureActivity.class);
+		startActivity(intent);
 	}
 }
