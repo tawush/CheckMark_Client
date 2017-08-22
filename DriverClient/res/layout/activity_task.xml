@@ -7,18 +7,34 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.tawush.checkmark.activity.TaskActivity" >
-		<fragment
-         android:id="@+id/map"
-         android:name="com.google.android.gms.maps.MapFragment"
-         android:layout_width="match_parent"
-         android:layout_height="match_parent" />
 
-		<Button
-		    android:onClick="onScan"
-		    android:layout_width="wrap_content"
-		    android:layout_height="wrap_content"
-		    android:layout_alignLeft="@+id/map"
-		    android:layout_alignTop="@+id/map"
-		    android:text="Scan" />
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.MapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/map"
+        android:layout_alignTop="@+id/map"
+        android:layout_marginTop="52dp"
+        android:onClick="onScan"
+        android:text="Scan" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/map"
+        android:layout_below="@+id/button1"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="21dp"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
 
 </RelativeLayout>
